@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main {
+  background-image: url(./img/shrinlik.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px;
+  text-align: center;
+}
+header {
+  padding: 20px 0px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+header nav a:first-child {
+  color: #34c759;
+}
+main h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.main-prg {
+  color: #fff;
+  opacity: 0.7;
+}
+.main-btn {
+  padding: 15px 30px;
+  background-color: #34c759;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+.w-30 {
+  width: 30%;
+}
+.time-box {
+  margin-top: 50px;
+}
+.time-box i {
+  color: #fff;
+  opacity: 0.7;
+}
+.time-prg {
+  color: #fff;
+}
+body {
+  background-color: #000;
+}
+.about h2 {
+  color: #fff;
+}
+.about {
+  text-align: center;
+  background-color: #252525;
+  padding: 50px 100px;
+  border-radius: 10px;
+  margin-top: -100px;
+}
+.about img {
+  margin-right: 20px;
+  display: inline-block;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.title {
+  color: #fff;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.w-23 {
+  width: 23%;
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 10px;
+}
+.w-23 h3 {
+  color: #fff;
+}
+.line {
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #34c759;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.product-card {
+  background-color: #252525;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 30px 0;
+}
+.product-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.product-card h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px;
+}
+.product-card p {
+  margin: 20px;
+}
+.product-card .flex-box {
+  margin: 20px;
+}
+.product-card i {
+  color: #f9ad3d;
+}
+.product-card button {
+  background-color: #34c759;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.product-card span {
+  color: #fff;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.user-card h3 {
+  color: #fff;
+  font-size: 24px;
+}
+.user-card {
+  margin: 40px 0;
+}
+.time-box {
+  text-align: center;
+}
+footer {
+  background-color: #252525;
+}
